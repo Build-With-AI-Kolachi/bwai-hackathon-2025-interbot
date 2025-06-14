@@ -1,0 +1,41 @@
+{
+  "name": "ai-interview-platform-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.22.0",
+    "@google/generative-ai": "^0.24.1",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.18.1",
+    "jszip": "^3.10.1",
+    "next": "^15.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^9.0.1",
+    "tailwindcss": "^3.3.5",
+    "three": "^0.177.0",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "20.19.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^15.0.0",
+    "typescript": "5.8.3"
+  }
+}
